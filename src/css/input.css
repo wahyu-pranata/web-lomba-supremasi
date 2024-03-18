@@ -5,24 +5,40 @@
 .btn-primary {
   @apply px-4 py-2 bg-sky-500 text-white;
 }
+
+.input {
+  @apply px-2 py-3 bg-slate-50 rounded-sm mb-4 border-[.5px] border-slate-400
+}
+
 .responsive-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 .testimoni-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+
 @media (max-width: 768px) {
   .navbar {
     @apply max-w-full;
   }
+
   .navbar.show .navbar-nav {
     @apply block w-[95%] left-1/2 -translate-x-1/2 absolute top-full py-4 px-2 shadow-lg bg-slate-100 rounded-md border mt-1;
   }
+
   .navbar.show .nav-menu {
     @apply gap-2 flex-col mb-3;
   }
+
   .navbar.show .nav-menu a {
     @apply block hover:bg-sky-500 hover:text-white;
   }
