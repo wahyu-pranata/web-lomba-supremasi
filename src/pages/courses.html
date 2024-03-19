@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/output.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="font-poppins">
+  <nav class="navbar sticky top-0 bg-white">
+    <div class="container mx-auto flex justify-between items-center py-4 md:py-6 pl-6 pr-3 lg:px-16">
+      <a href="" class="font-semibold text-3xl">Codinger</a>
+      <div class="navbar-nav gap-16 items-center hidden md:flex">
+        <div class="nav-menu flex gap-6">
+          <a href="./index.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Beranda</a>
+          <a href="./courses.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Kelas</a>
+          <a href="./webinar.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Webinar</a>
+        </div>
+        <div class="flex gap-6 px-2">
+          <a href="" class="px-5 py-1.5 border border-sky-500 text-sky-500 rounded-md">Masuk</a>
+          <a href="" class="px-5 py-1.5 bg-sky-500 text-white rounded-md">Daftar</a>
+        </div>
+      </div>
+      <button class="block md:hidden rounded-md px-3 py-1.5 hover:bg-slate-50 active:bg-slate-100 nav-btn">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+  </nav>
+
+
+  <main class="mx-auto">
+    <header class="text-white px-24 py-10 bg-sky-500">
+      <h1 class="text-2xl font-semibold inline-block mb-2">Pilihan Kelas di Codinger</h1>
+      <p class="font-light">Tersedia dalam berbagai teknologi populer</p>
+    </header>
+    <div class="mt-8 px-24">
+      <div class="grid grid-cols-12 gap-4">
+        <aside class="col-span-2 hidden md:block">
+          <h2 class="inline-block font-bold text-xl p-4 bg-sky-100 w-full">Teknologi</h2>
+          <ul class="px-4 divide-y divide-slate-200">
+            <li class="py-2 hover:bg-slate-50"><a href="#">Basic Programming</a></li>
+            <li class="py-2 hover:bg-slate-50"><a href="#">Frontend</a></li>
+            <li class="py-2 hover:bg-slate-50"><a href="#">Javascript/Node JS</a></li>
+            <li class="py-2 hover:bg-slate-50"><a href="#">CSS</a></li>
+            <li class="py-2 hover:bg-slate-50"><a href="#">PHP</a></li>
+            <li class="py-2 hover:bg-slate-50"><a href="#">Go</a></li>
+            <li class="py-2 hover:bg-slate-50"><a href="#">Artificial Intelligence (AI)</a></li>
+          </ul>
+        </aside>
+        <div class="col-span-12 md:col-span-10">
+          <header class="flex items-center gap-2 flex-wrap">
+            <div class="flex items-center">
+              <input type="text" class="px-2 py-3 border border-slate-400 rounded-md rounded-r-none"
+                placeholder="Cari Kelas...">
+              <div class="p-3 border border-l-0 border-slate-400 rounded-l-none rounded-md">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+              </div>
+              <div class="px-4">
+                <select class="px-2 py-3 bg-white rounded-md border border-slate-400 md:hidden">
+                  <option class="">Basic Programming</option>
+                  <option class="">Frontend</option>
+                  <option class="">Javascript/Node JS</option>
+                  <option class="">CSS</option>
+                  <option class="">PHP</option>
+                  <option class="">Go</option>
+                  <option class="">Artificial Intelligence (AI)</option>
+                </select>
+              </div>
+            </div>
+          </header>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+            <div class="card border rounded-lg">
+              <div class="card-image">
+                <img src="../img/card-img.jpg" alt="Card Image" class="rounded-t-lg">
+              </div>
+              <div class="card-body flex flex-col gap-3 p-4">
+                <h3 class="font-medium text-lg">Course Title lorem ipsum</h3>
+                <div class="flex items-center gap-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 fill-yellow-400 ">
+                    <path
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <p class="text-neutral-400 font-light"><span class="text-yellow-400">5.0 </span>(12)</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                  </svg>
+                  <p class="font-light">12 Modul</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                  </svg>
+                  <p class="font-light">0 pengguna membeli</p>
+                </div>
+              </div>
+              <div class="flex justify-between border-t px-4 py-2">
+                <p>Beli</p>
+                <p class="font-bold">Rp120.000,00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+
+</html>
