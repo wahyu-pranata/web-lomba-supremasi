@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,20 +14,40 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="../css/output.css" />
 </head>
-
-<body class="font-poppins">
-  <nav class="navbar sticky top-0 bg-white">
-    <div class="container mx-auto flex justify-between items-center py-4 md:py-6 pl-6 pr-3 lg:px-16">
-      <a href="" class="font-semibold text-3xl">Codinger</a>
-      <div class="navbar-nav gap-16 items-center hidden md:flex">
-        <div class="nav-menu flex gap-6">
-          <a href="./index.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Beranda</a>
-          <a href="./courses.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Kelas</a>
-          <a href="./webinar.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Webinar</a>
-        </div>
-        <div class="flex gap-6 px-2">
-          <a href="" class="px-5 py-1.5 border border-sky-500 text-sky-500 rounded-md">Masuk</a>
-          <a href="" class="px-5 py-1.5 bg-sky-500 text-white rounded-md">Daftar</a>
+  <body class="font-poppins">
+    <nav class="navbar sticky top-0 bg-white z-50">
+      <div
+        class="container mx-auto flex justify-between items-center py-4 md:py-6 pl-6 pr-3 lg:px-16"
+      >
+        <a href="" class="font-semibold text-3xl">Codinger</a>
+        <div class="navbar-nav gap-16 items-center hidden md:flex">
+          <div class="nav-menu flex gap-6">
+            <a href="./" class="px-4 py-1.5 hover:bg-slate-50 rounded-md"
+              >Beranda</a
+            >
+            <a
+              href="./kelas.html"
+              class="px-4 py-1.5 hover:bg-slate-50 rounded-md"
+              >Kelas</a
+            >
+            <a
+              href="./webinar.html"
+              class="px-4 py-1.5 hover:bg-slate-50 rounded-md"
+              >Webinar</a
+            >
+          </div>
+          <div class="flex gap-6 px-2">
+            <a
+              href="./login.html"
+              class="px-5 py-1.5 border border-sky-500 text-sky-500 rounded-md hover:bg-sky-500 hover:text-white transition duration-300"
+              >Masuk</a
+            >
+            <a
+              href="./register.html"
+              class="px-5 py-1.5 bg-sky-500 text-white rounded-md hover:bg-sky-600 transition duration-300"
+              >Daftar</a
+            >
+          </div>
         </div>
       </div>
       <button class="block md:hidden rounded-md px-3 py-1.5 hover:bg-slate-50 active:bg-slate-100 nav-btn">
@@ -37,17 +56,26 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <div class="container mx-auto flex px-8 lg:px-20 items-center pb-6 flex-wrap">
-    <div class="w-full md:w-1/2">
-      <h2 class="text-4xl lg:text-5xl font-semibold leading-normal">
-        Raih <span class="text-sky-500">mimpimu</span> di era digital
-      </h2>
-      <p class="mt-4">
-        Bersama <span class="text-sky-500">Codinger</span> tidak ada alasan
-        untuk tidak belajar
-      </p>
-      <a href="#" class="btn-primary mt-3 inline-block shadow-md">Daftar Sekarang</a>
+    <!-- Hero Section -->
+    <div
+      class="container mx-auto flex px-8 lg:px-20 items-center pb-6 flex-wrap"
+    >
+      <div class="w-full md:w-1/2">
+        <h2 class="text-4xl lg:text-5xl font-semibold leading-normal">
+          Raih <span class="text-sky-500">mimpimu</span> di era digital
+        </h2>
+        <p class="mt-4">
+          Bersama <span class="text-sky-500">Codinger</span> tidak ada alasan
+          untuk tidak belajar
+        </p>
+        <a
+          href="#"
+          class="btn-primary mt-3 inline-block shadow-md rounded-md hover:bg-sky-600"
+          >Daftar Sekarang</a
+        >
+      </div>
+      <img src="../img/hero-section.png" alt="" class="w-full md:w-1/2 mt-3" />
+
     </div>
     <img src="../img/hero-section.png" alt="" class="w-full md:w-1/2 mt-3" />
   </div>
@@ -75,21 +103,28 @@
     <p class="mt-6">Dan banyak lagi....</p>
   </div>
 
-  <!-- Mengapa -->
-  <div class="container mx-auto py-6 lg:py-16 flex gap-24 px-8 lg:px-16 justify-center">
-    <img src="../img/Choice-cuate 1.png" alt="" class="w-[35%] hidden md:block" />
-    <div class="lg:mt-4 w-full">
-      <h2 class="text-2xl font-semibold">
-        Mengapa memilih <span class="text-sky-500">Codinger</span>?
-      </h2>
-      <ul class="mt-8 list-disc list-inside marker:text-sky-500">
-        <li class="mt-4">Materi lengkap yang dibawakan oleh profesional</li>
-        <li class="mt-4">Mudah dipahami bagi pemula</li>
-        <li class="mt-4">Pilihan materi yang beragam</li>
-        <li class="mt-4">Pembelajaran yang fleksibel</li>
-        <li class="mt-4">Komunitas yang besar</li>
-        <li class="mt-4">Fitur yang lengkap</li>
-      </ul>
+    <!-- Mengapa -->
+    <div
+      class="container mx-auto py-6 lg:py-16 flex gap-24 px-8 lg:px-16 justify-center"
+    >
+      <img
+        src="../img/Choice-cuate 1.png"
+        alt=""
+        class="w-[35%] hidden md:block"
+      />
+      <div class="lg:mt-4 w-fit max-w-full">
+        <h2 class="text-2xl font-semibold">
+          Mengapa memilih <span class="text-sky-500">Codinger</span>?
+        </h2>
+        <ul class="mt-8 list-disc list-inside marker:text-sky-500">
+          <li class="mt-4">Materi lengkap yang dibawakan oleh profesional</li>
+          <li class="mt-4">Mudah dipahami bagi pemula</li>
+          <li class="mt-4">Pilihan materi yang beragam</li>
+          <li class="mt-4">Pembelajaran yang fleksibel</li>
+          <li class="mt-4">Komunitas yang besar</li>
+          <li class="mt-4">Fitur yang lengkap</li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -106,11 +141,19 @@
               <i class="fa-solid fa-star"></i>
               <span class="ml-1">5.0</span>
             </div>
-            <div class="text-gray-400">(1) Penilaian</div>
-          </div>
-          <div class="mt-2 text-gray-400">
-            <i class="fa-regular fa-file-text mr-1"></i>
-            12 Modul
+            <div class="mt-2 text-gray-400">
+              <i class="fa-regular fa-file-text mr-1"></i>
+              12 Modul
+            </div>
+            <div class="mt-2 text-gray-400">
+              <i class="fa-solid fa-users mr-1"></i>
+              28 Peserta
+            </div>
+            <a
+              href="./detail-kelas.html"
+              class="block w-fit px-3 py-1.5 mt-3 bg-sky-500 text-white mx-auto rounded-md hover:bg-sky-600"
+              >Mulai Belajar</a
+            >
           </div>
           <div class="mt-2 text-gray-400">
             <i class="fa-solid fa-users mr-1"></i>
@@ -128,33 +171,11 @@
               <i class="fa-solid fa-star"></i>
               <span class="ml-1">5.0</span>
             </div>
-            <div class="text-gray-400">(1) Penilaian</div>
-          </div>
-          <div class="mt-2 text-gray-400">
-            <i class="fa-regular fa-file-text mr-1"></i>
-            12 Modul
-          </div>
-          <div class="mt-2 text-gray-400">
-            <i class="fa-solid fa-users mr-1"></i>
-            28 Peserta
-          </div>
-          <a href="#" class="block w-fit px-3 py-1.5 mt-3 bg-sky-500 text-white mx-auto">Mulai Belajar</a>
-        </div>
-      </div>
-      <div class="rounded-lg overflow-hidden">
-        <img src="../img/card-img.jpg" alt="" class="h-48 w-full object-cover" />
-        <div class="py-3 px-3 w-full bg-white">
-          <h3 class="text-xl font-medium">Laravel Eloquent</h3>
-          <div class="flex gap-4 mt-2.5">
-            <div class="text-yellow-400 font-medium">
-              <i class="fa-solid fa-star"></i>
-              <span class="ml-1">5.0</span>
-            </div>
-            <div class="text-gray-400">(1) Penilaian</div>
-          </div>
-          <div class="mt-2 text-gray-400">
-            <i class="fa-regular fa-file-text mr-1"></i>
-            12 Modul
+            <a
+              href="./detail-kelas.html"
+              class="block w-fit px-3 py-1.5 mt-3 bg-sky-500 text-white mx-auto rounded-md hover:bg-sky-600"
+              >Mulai Belajar</a
+            >
           </div>
           <div class="mt-2 text-gray-400">
             <i class="fa-solid fa-users mr-1"></i>
@@ -172,19 +193,38 @@
               <i class="fa-solid fa-star"></i>
               <span class="ml-1">5.0</span>
             </div>
-            <div class="text-gray-400">(1) Penilaian</div>
-          </div>
-          <div class="mt-2 text-gray-400">
-            <i class="fa-regular fa-file-text mr-1"></i>
-            12 Modul
-          </div>
-          <div class="mt-2 text-gray-400">
-            <i class="fa-solid fa-users mr-1"></i>
-            28 Peserta
+            <a
+              href="./detail-kelas.html"
+              class="block w-fit px-3 py-1.5 mt-3 bg-sky-500 text-white mx-auto rounded-md hover:bg-sky-600"
+              >Mulai Belajar</a
+            >
           </div>
           <a href="#" class="block w-fit px-3 py-1.5 mt-3 bg-sky-500 text-white mx-auto">Mulai Belajar</a>
         </div>
       </div>
+      <div class="rounded-lg overflow-hidden">
+        <img src="../img/card-img.jpg" alt="" class="h-48 w-full object-cover" />
+        <div class="py-3 px-3 w-full bg-white">
+          <h3 class="text-xl font-medium">Laravel Eloquent</h3>
+          <div class="flex gap-4 mt-2.5">
+            <div class="text-yellow-400 font-medium">
+              <i class="fa-solid fa-star"></i>
+              <span class="ml-1">5.0</span>
+            </div>
+            <a
+              href="./detail-kelas.html"
+              class="block w-fit px-3 py-1.5 mt-3 bg-sky-500 text-white mx-auto rounded-md hover:bg-sky-600"
+              >Mulai Belajar</a
+            >
+          </div>
+          <a href="#" class="block w-fit px-3 py-1.5 mt-3 bg-sky-500 text-white mx-auto">Mulai Belajar</a>
+        </div>
+      </div>
+      <a
+        href="#"
+        class="block w-fit px-4 py-2 mt-10 bg-sky-500 text-white mx-auto shadow-md rounded-md hover:bg-sky-600"
+        >Lihat Semua Kelas</a
+      >
     </div>
     <a href="#" class="block w-fit px-4 py-2 mt-10 bg-sky-500 text-white mx-auto shadow-md">Lihat Semua Kelas</a>
   </div>
