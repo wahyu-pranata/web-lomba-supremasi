@@ -12,19 +12,26 @@
 </head>
 
 <body class="font-poppins bg-slate-100">
-  <nav class="container mx-auto flex justify-between items-center py-6 bg-white">
-    <a href="" class="font-semibold text-3xl">Codinger</a>
-    <div class="flex gap-16 items-center">
-      <div class="flex gap-6">
-        <a href="">Beranda</a>
-        <a href="">Kelas</a>
+  <nav class="navbar sticky top-0 bg-white">
+    <div class="container mx-auto flex justify-between items-center py-4 md:py-6 pl-6 pr-3 lg:px-16">
+      <a href="" class="font-semibold text-3xl">Codinger</a>
+      <div class="navbar-nav gap-16 items-center hidden md:flex">
+        <div class="nav-menu flex gap-6">
+          <a href="./index.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Beranda</a>
+          <a href="./courses.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Kelas</a>
+          <a href="./webinar.html" class="px-4 py-1.5 hover:bg-slate-50 rounded-md">Webinar</a>
+        </div>
+        <div class="flex gap-6 px-2">
+          <a href="" class="px-5 py-1.5 border border-sky-500 text-sky-500 rounded-md">Masuk</a>
+          <a href="" class="px-5 py-1.5 bg-sky-500 text-white rounded-md">Daftar</a>
+        </div>
       </div>
-      <div class="flex gap-6">
-        <a href="" class="px-5 py-1.5 border border-sky-500 text-sky-500">Masuk</a>
-        <a href="" class="px-5 py-1.5 bg-sky-500 text-white">Daftar</a>
-      </div>
+      <button class="block md:hidden rounded-md px-3 py-1.5 hover:bg-slate-50 active:bg-slate-100 nav-btn">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
     </div>
   </nav>
+
   <div class="flex w-screen">
     <div class="w-screen h-screen">
       <div class="max-w-xl mx-auto border p-4 mt-24 pt-20 bg-white relative">
@@ -48,7 +55,7 @@
           <button type="submit" class="btn-primary text-white">
             Daftar
           </button>
-          <p class="text-center">Belum punya akun? <a href="" class="text-sky-500">Daftar</a></p>
+          <p class="text-center">Belum punya akun? <a href="./register.html" class="text-sky-500">Daftar</a></p>
         </form>
       </div>
     </div>
